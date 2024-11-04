@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 25px 100px;
+    animation: colorChange 5s ease-in-out infinite alternate;
+    margin-top: 14rem;
+
+
+&__p{
+    color: black;
+}
+}

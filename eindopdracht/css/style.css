@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  font-family: "Itim", cursive;
+  background: #11998e;
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+  background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: gray;
+  animation: colorChange 5s ease-in-out infinite alternate;
+}
+header__h1 {
+  color: black;
+}
+
+.divtober {
+  display: flex;
+  justify-content: start;
+  width: 45px;
+  margin: 300px;
+  height: 45px;
+  background-color: transparent;
+  border-radius: 100%;
+  box-shadow: -500px -150px 0 greenyellow, -500px -50px 0 greenyellow, -500px 50px 0 greenyellow, -500px 150px 0 greenyellow, -400px 150px 0 greenyellow, -300px 50px 0 greenyellow, -200px 150px 0 greenyellow, -100px 150px 0 greenyellow, -100px 50px 0 greenyellow, -100px -50px 0 greenyellow, -100px -150px 0 greenyellow, 100px 150px 0 greenyellow, 150px 50px 0 greenyellow, 200px -50px 0 greenyellow, 250px -150px 0 greenyellow, 300px -50px 0 greenyellow, 350px 50px 0 greenyellow, 400px 150px 0 greenyellow, 250px 50px 0 greenyellow;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #bfff00;
+  }
+  50% {
+    background-color: #91ff72;
+  }
+  100% {
+    background-color: #a4ff7a;
+  }
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  padding: 25px 100px;
+  animation: colorChange 5s ease-in-out infinite alternate;
+  margin-top: 14rem;
+}
+.footer__p {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

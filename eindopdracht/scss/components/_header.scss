@@ -1,0 +1,14 @@
+header {
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: gray;
+    animation: colorChange 5s ease-in-out infinite alternate;
+
+
+&__h1{
+   color: black; 
+}
+}
